@@ -23,6 +23,38 @@
   100%
     transform: translateY(0px)
 
+.slyder-f
+  .slyder-f__btn
+    color: $color-acento-botones
+
+.titulo-sexto.color-sistema-l
+  border-left-color: $color-sistema-l
+
+.tabla-a.color-sistema-l
+  thead
+    border-color: $color-sistema-l
+
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
 //banners
 .banner-principal .tarjeta
   background-position-x: 33%
@@ -54,10 +86,14 @@
   background-color: $color-sistema-j !important
 .fondo-color-sistema-k
   background-color: $color-sistema-k !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
 
 //bordes
 .borde-8
   border-radius: 8px !important
+.borde-16
+  border-radius: 16px !important
 .borde-18
   border-radius: 18px !important
 .borde-10
@@ -82,6 +118,40 @@
   &.pos-1
     &:before
       top: -5%
+
+.fondo-personalizado-2
+  background-image: url(../assets/curso/temas/22.png)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media screen and (max-width: $bp-max-md)
+    background-size: cover
+
+.fondo-personalizado-3
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/36.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 60px
+
+.fondo-personalizado-4
+  background-image: url(../assets/curso/temas/38.png)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media screen and (max-width: $bp-max-md)
+    background-size: cover
+
   
 //slyders personalizados
 .slider-personalizado-1
@@ -127,4 +197,60 @@
     right: 0
     transform: translateY(33%) translateX(34%)
 
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
 
+//Acordiones
+.acordion-personalizado-1
+  &__tarjeta
+    border-radius: 10px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-m
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important
+
+//tarjetas
+.tarjeta.estilo-personalizado-1
+  background-color: $color-primario
+  transition: background-color .3s, color .3s
+  p
+    color: white
+  .estilo-numero-flotante
+    font-weight: bold
+    color: $color-sistema-n
+    position: absolute
+    font-size: 35px
+    top: 0
+    left: 0
+    line-height: 1
+  &.color-2
+    background-color: $color-sistema-o
+    p
+      color: $color-sistema-texto
+    .estilo-numero-flotante
+      color: $color-secundario
