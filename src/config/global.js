@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Publicación de aplicaciones tradicionales',
+    descripcionCurso:
+      'Este componente se enfoca en aspectos relativos a la publicación de aplicaciones, la vida útil de las mismas, redes locales, pruebas de sitios web y servicios de hosting. Se profundizará en los conceptos más importantes para llevar a cabo el proceso de publicación tradicional de un sitio web.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Servicios de <em>hosting</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Servicios de dominio',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'FTP',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Publicación y prueba de sitios',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +106,57 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Servicios de dominio',
+      referencia:
+        'Corporación para la Asignación de Nombres y Números en Internet [ICANN]. (2015). Las funciones de la IANA.',
+      tipo: 'Reporte',
+      link:
+        'https://www.icann.org/es/system/files/files/iana-functions-18dec15-es.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ancho de banda',
+      significado:
+        'medida que hace referencia a la cantidad de información que puede ser recibida por segundo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Datacenter</em>',
+      significado:
+        'lugar donde se concentran los recursos necesarios para el procesamiento de información.',
+    },
+    {
+      termino: 'Internet',
+      significado:
+        'red de equipos de cómputo interconectados por medio de los cuales se ofrece acceso a servicios utilizando un lenguaje común.',
+    },
+    {
+      termino: 'IP',
+      significado:
+        'una dirección IP hace referencia a una dirección única que identifica a cualquier dispositivo en una red.',
+    },
+    {
+      termino: 'Servidor',
+      significado:
+        'equipo o conjunto de equipos especiales que puede recibir peticiones por parte de un cliente, procesar la información y devolver respuesta de acuerdo con las características de la solicitud.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'De Souza, I. (12 de febrero de 2021). Aprende sobre los tipos de hosting más importantes de la actualidad y sus funciones. Rock Content - ES.',
+      link: 'https://rockcontent.com/es/blog/tipos-de-hosting/',
+    },
+    {
+      referencia:
+        'Luisescoffie (3 de agosto de 2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web. Luisescoffie.',
+      link:
+        'https://luisescoffie.com/4-herramientas-gratuitas-para-conocer-el-uptime-de-tu-sitio-web/',
+    },
+    {
+      referencia:
+        'Kinsta (30 de septiembre de 2019). ¿Qué es un TLD? Los Top-Level Domains Explicados. Kinsta.',
+      link: 'https://kinsta.com/es/base-de-conocimiento/que-es-un-tld/',
     },
   ],
   creditos: [
