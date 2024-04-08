@@ -18,7 +18,26 @@
     
     p.mb-4 Estos son algunos aspectos generales y de mucha importancia que debe tener en cuenta en lo relacionado con los servicios de #[em hosting]:
 
-    p(style="color: red;") ¡¡¡FALTAN TABS!!!
+    TabsC.tabs-personalizado-1
+      .fondo-personalizado-5(titulo="The splendor of the mystery")
+        .fondo-personalizado-5__contenido
+          .row
+            .col-lg-5
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/47.png",style="max-width: 502px;")
+            .col-lg-7
+              h4.mb-4 Funcionamiento del servicio #[em hosting]
+              p.mb-0 El servicio de #[em hosting] funciona de manera similar al arrendamiento de inmuebles. En ambos contextos, se realiza el pago de un alquiler que otorga la autorización para utilizar un espacio. En el caso del #[em hosting], este espacio se utiliza para alojar contenido digital. 
+      .fondo-personalizado-5(titulo="The splendor of the mystery")
+        .fondo-personalizado-5__contenido
+          .row
+            .col-lg-5
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/47.png",style="max-width: 502px;")
+            .col-lg-7
+              h4.mb-4 Funcionamiento del servicio #[em hosting]
+              p.mb-0 El servicio de #[em hosting] funciona de manera similar al arrendamiento de inmuebles. En ambos contextos, se realiza el pago de un alquiler que otorga la autorización para utilizar un espacio. En el caso del #[em hosting], este espacio se utiliza para alojar contenido digital. 
+
 
     p.mb-4 Dentro de las modalidades o tipos de #[em hosting], destacan las que se muestran a continuación:
 

@@ -152,6 +152,24 @@
   @media screen and (max-width: $bp-max-md)
     background-size: cover
 
+.fondo-personalizado-5
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/46.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 60px
   
 //slyders personalizados
 .slider-personalizado-1
@@ -233,6 +251,13 @@
 
   .acordion__accion__btn--a
     background-color: $color-acento-botones !important
+
+//tabs
+.tabs-personalizado-1
+  .tabs-c__tab
+    background-color: $color-sistema-q
+  .tabs-c__tab--active
+    background-color: white
 
 //tarjetas
 .tarjeta.estilo-personalizado-1
