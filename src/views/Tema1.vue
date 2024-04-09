@@ -2,46 +2,55 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Servicios de #[em hosting]
 
     .row.mb-4
       .col-lg-8
-        p.mb-4 El servicio de #[em hosting] corresponde a uno de los dos servicios indispensables para la publicación de una aplicación web, y consiste, esencialmente, en un servicio de alojamiento de archivos de los productos y servicios de #[em software] que requieren ser publicados en internet.
-        .fondo-color-sistema-k.p-4.borde-10
+        p.mb-4(data-aos="fade-right") El servicio de #[em hosting] corresponde a uno de los dos servicios indispensables para la publicación de una aplicación web, y consiste, esencialmente, en un servicio de alojamiento de archivos de los productos y servicios de #[em software] que requieren ser publicados en internet.
+        .fondo-color-sistema-k.p-4.borde-10(data-aos="fade-left")
           p.mb-0 Internet es un gran grupo de servidores interconectados, unos con otros, a los cuales las personas acceden para el consumo de servicios desde sus equipos personales; dentro de esta gran red, hay unos servidores especiales encargados de ofrecer el servicio de #[em hosting].
-      .col-lg-4.order-first.order-lg-last 
+      .col-lg-4.order-first.order-lg-last(data-aos="zoom-in-out")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 398px;")
     
-    p.mb-4 Estos son algunos aspectos generales y de mucha importancia que debe tener en cuenta en lo relacionado con los servicios de #[em hosting]:
+    p.mb-4(data-aos="fade") Estos son algunos aspectos generales y de mucha importancia que debe tener en cuenta en lo relacionado con los servicios de #[em hosting]:
 
-    TabsC.tabs-personalizado-1
-      .fondo-personalizado-5(titulo="The splendor of the mystery")
+    TabsB.tabs-personalizado-1.mb-4(data-aos="flip-up")
+      .fondo-personalizado-5(titulo="Funcionamiento del servicio <em>hosting</em>" :icono="require('@/assets/curso/temas/48.png')")
         .fondo-personalizado-5__contenido
-          .row
-            .col-lg-5
+          .row.pb-3.pt-5.pe-3.pe-lg-5
+            .col-lg-5.pt-2
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/47.png",style="max-width: 502px;")
-            .col-lg-7
+            .col-lg-7.pt-2
               h4.mb-4 Funcionamiento del servicio #[em hosting]
-              p.mb-0 El servicio de #[em hosting] funciona de manera similar al arrendamiento de inmuebles. En ambos contextos, se realiza el pago de un alquiler que otorga la autorización para utilizar un espacio. En el caso del #[em hosting], este espacio se utiliza para alojar contenido digital. 
-      .fondo-personalizado-5(titulo="The splendor of the mystery")
+              p.mb-0 El servicio de #[em hosting] funciona de manera similar al arrendamiento de inmuebles. En ambos contextos, se realiza el pago de un alquiler que otorga la autorización para utilizar un espacio. En el caso del #[em hosting], este espacio se utiliza para alojar contenido digital.
+      .fondo-personalizado-5(titulo="Modalidades o tipos de <em>hosting</em>" :icono="require('@/assets/curso/temas/50.png')")
         .fondo-personalizado-5__contenido
-          .row
-            .col-lg-5
+          .row.pb-3.pt-5.pe-3.pe-lg-5
+            .col-lg-5.pt-2
               figure.mb-4.mb-lg-0
-                img.mx-auto(src="@/assets/curso/temas/47.png",style="max-width: 502px;")
-            .col-lg-7
-              h4.mb-4 Funcionamiento del servicio #[em hosting]
-              p.mb-0 El servicio de #[em hosting] funciona de manera similar al arrendamiento de inmuebles. En ambos contextos, se realiza el pago de un alquiler que otorga la autorización para utilizar un espacio. En el caso del #[em hosting], este espacio se utiliza para alojar contenido digital. 
+                img.mx-auto(src="@/assets/curso/temas/49.png",style="max-width: 502px;")
+            .col-lg-7.pt-2
+              h4.mb-4 Modalidades o tipos de #[em hosting]
+              p.mb-0 Las modalidades de #[em hosting] varían, pero todas comparten una base común con el proceso de arrendamiento de inmuebles, donde se efectúa un pago para obtener el derecho de usar un espacio determinado. Este espacio, en el contexto del #[em hosting], se utiliza para almacenar datos y hacer accesibles los contenidos en línea.
+      .fondo-personalizado-5(titulo="Trámites y gestión del <em>hosting</em>" :icono="require('@/assets/curso/temas/52.png')")
+        .fondo-personalizado-5__contenido
+          .row.pb-3.pt-5.pe-3.pe-lg-5
+            .col-lg-5.pt-2
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 502px;")
+            .col-lg-7.pt-2
+              h4.mb-4 Trámites y gestión del #[em hosting]
+              p.mb-0 Siguiendo la analogía con el alquiler de un inmueble, cualquier servicio adicional, como la adquisición de una dirección de internet, un número de teléfono o servicios públicos, debe tramitarse de manera independiente con otros proveedores. De la misma manera, en internet, cualquier servicio adicional más allá del simple almacenamiento de archivos, productos y servicios de #[em software], debe adquirirse de forma adicional, según las necesidades.
 
 
-    p.mb-4 Dentro de las modalidades o tipos de #[em hosting], destacan las que se muestran a continuación:
+    p.mb-4(data-aos="fade-right") Dentro de las modalidades o tipos de #[em hosting], destacan las que se muestran a continuación:
 
-    .slider-personalizado-1.py-5.mb-5
+    .slider-personalizado-1.py-5.mb-5(data-aos="zoom-in-out")
       img.imgf-1(src="@/assets/curso/temas/10.png")
       img.imgf-2(src="@/assets/curso/temas/12.png")
       img.imgf-3(src="@/assets/curso/temas/11.png")
@@ -88,11 +97,11 @@
               figure.mb-4.mb-lg-0.my-auto
                 img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 491px;")
     
-    p.mb-4 #[b La selección de un servicio de #[em hosting]], no es una decisión que se deba tomar a la ligera; puede impactar positiva o negativamente la perspectiva final de los clientes de un producto #[em software] desarrollado. Una mala decisión, en este aspecto, puede borrar todas las buenas prácticas de calidad, diseño y construcción de #[em software] utilizadas.
+    p.mb-4(data-aos="fade-down") #[b La selección de un servicio de #[em hosting]], no es una decisión que se deba tomar a la ligera; puede impactar positiva o negativamente la perspectiva final de los clientes de un producto #[em software] desarrollado. Una mala decisión, en este aspecto, puede borrar todas las buenas prácticas de calidad, diseño y construcción de #[em software] utilizadas.
 
-    p.mb-4 Para elegir un servicio de #[em hosting] se debe considerar:
+    p.mb-4(data-aos="fade-left") Para elegir un servicio de #[em hosting] se debe considerar:
 
-    .fondo-personalizado-2.p-3.pb-0.pt-5.mb-5
+    .fondo-personalizado-2.p-3.pb-0.pt-5.mb-5(data-aos="zoom-in-out")
       .row.align-items-center
         .col-lg-4
           figure.mb-4.mb-lg-0
@@ -118,9 +127,9 @@
 
     .row.align-items-center.mb-4
       .col-lg-8
-        p.mb-4 Cada proveedor de servicio de #[em hosting] debe hacer público el valor del #[em uptime] ofrecido a sus clientes dentro de los términos y condiciones de los servicios alquilados.
+        p.mb-4(data-aos="fade-up") Cada proveedor de servicio de #[em hosting] debe hacer público el valor del #[em uptime] ofrecido a sus clientes dentro de los términos y condiciones de los servicios alquilados.
 
-        .fondo-color-sistema-k.p-3.borde-10
+        .fondo-color-sistema-k.p-3.borde-10(data-aos="fade-down")
           .row.align-items-center
             .col-md-2
               figure.mb-4.mb-md-0
@@ -128,16 +137,16 @@
             .col-md-10
               p.mb-0 #[b Proveedores de servicios:] estos son algunos de los proveedores de servicios más conocidos, con los valores de #[em uptime] ofrecidos:
 
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 400px;")
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-sistema-l
+        .titulo-sexto.color-sistema-l(data-aos="fade")
           p.mb-0 #[b Tabla 1.] Proveedores de #[em hosting]
 
-        .tabla-a.color-sistema-l
+        .tabla-a.color-sistema-l(data-aos="flip-up")
           table
             thead
               tr
@@ -169,14 +178,14 @@
                 td Hostgator
                 td.text-center 99.99%
 
-    p.mb-4 #[b Herramientas de monitoreo:] estas son algunas herramientas que pueden ser utilizadas para monitorear una web, el servicio de #[em hosting] y los valores #[em uptime] reales:
+    p.mb-4(data-aos="fade-right") #[b Herramientas de monitoreo:] estas son algunas herramientas que pueden ser utilizadas para monitorear una web, el servicio de #[em hosting] y los valores #[em uptime] reales:
 
     .row.justify-content-center
       .col-lg-10
-        .titulo-sexto.color-sistema-l
+        .titulo-sexto.color-sistema-l(data-aos="fade")
           p.mb-0 #[b Tabla 2.] Herramientas de monitoreo web
 
-        .tabla-a.color-sistema-l
+        .tabla-a.color-sistema-l(data-aos="zoom-in-out")
           table
             thead
               tr

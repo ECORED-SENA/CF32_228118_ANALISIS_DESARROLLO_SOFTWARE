@@ -88,6 +88,8 @@
   background-color: $color-sistema-k !important
 .fondo-color-sistema-p
   background-color: $color-sistema-p !important
+.fondo-color-sistema-h
+  background-color: $color-sistema-h !important
 
 //bordes
 .borde-8
@@ -96,6 +98,8 @@
   border-radius: 16px !important
 .borde-18
   border-radius: 18px !important
+.borde-20
+  border-radius: 20px !important
 .borde-10
   border-radius: 10px !important
 
@@ -170,6 +174,24 @@
   &.pos-1
     &:before
       top: 60px
+
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/57.png)
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    @media screen and (max-width: $bp-max-md)
+      background-size: cover
+  &__contenido
+    position: relative
   
 //slyders personalizados
 .slider-personalizado-1
@@ -254,12 +276,49 @@
 
 //tabs
 .tabs-personalizado-1
-  .tabs-c__tab
+  border-bottom: none
+  .tabs-b__tab
+    border: none !important
     background-color: $color-sistema-q
-  .tabs-c__tab--active
-    background-color: white
+    &--active
+      position: relative
+      background-color: white !important
+      &:after
+        content: ""
+        display: block
+        width: 100%
+        height: 5px
+        position: absolute
+        background-color: $color-sistema-r
+        bottom: -10px
+        z-index: 1
+      &:before
+        width: 0
+        z-index: 1
+        height: 0
+        border-left: 6px solid transparent
+        border-right: 6px solid transparent
+        border-top: 6px solid
+        left: 50%
+        content: ""
+        display: block
+        position: absolute
+        transform: translate(-50%, -50%)
+        bottom: -19px
+        border-top-color: $color-sistema-r
 
 //tarjetas
+.estilo-tarjetas-personalizado-2
+  .tarjeta
+    -webkit-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
+    box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
+    border-radius: 24px
+    background-color: white
+    h4,p
+      color: $color-sistema-texto
+      text-align: center
+
 .tarjeta.estilo-personalizado-1
   background-color: $color-primario
   transition: background-color .3s, color .3s
