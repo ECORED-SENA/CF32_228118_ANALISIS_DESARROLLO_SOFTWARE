@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Publicación de aplicaciones tradicionales',
     descripcionCurso:
-      'Este componente se enfoca en aspectos relativos a la publicación de aplicaciones, la vida útil de las mismas, redes locales, pruebas de sitios web y servicios de hosting. Se profundizará en los conceptos más importantes para llevar a cabo el proceso de publicación tradicional de un sitio web.',
+      'Este componente se enfoca en aspectos relativos a la publicación de aplicaciones, la vida útil de las mismas, redes locales, pruebas de sitios web y servicios de <em>hosting</em>. Se profundizará en los conceptos más importantes para llevar a cabo el proceso de publicación tradicional de un sitio web.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -144,18 +144,18 @@ export default {
   referencias: [
     {
       referencia:
-        'De Souza, I. (12 de febrero de 2021). Aprende sobre los tipos de hosting más importantes de la actualidad y sus funciones. Rock Content - ES.',
+        'De Souza, I. (12 de febrero de 2021). Aprende sobre los tipos de hosting más importantes de la actualidad y sus funciones. <em>Rock Content - ES</em>.',
       link: 'https://rockcontent.com/es/blog/tipos-de-hosting/',
     },
     {
       referencia:
-        'Luisescoffie (3 de agosto de 2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web. Luisescoffie.',
+        '<em>Luisescoffie</em> (3 de agosto de 2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web. <em>Luisescoffie</em>.',
       link:
         'https://luisescoffie.com/4-herramientas-gratuitas-para-conocer-el-uptime-de-tu-sitio-web/',
     },
     {
       referencia:
-        'Kinsta (30 de septiembre de 2019). ¿Qué es un TLD? Los Top-Level Domains Explicados. Kinsta.',
+        'Kinsta (30 de septiembre de 2019). ¿Qué es un TLD? Los Top-Level Domains Explicados. <em>Kinsta</em>.',
       link: 'https://kinsta.com/es/base-de-conocimiento/que-es-un-tld/',
     },
   ],
@@ -179,8 +179,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -189,22 +195,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrés Felipe Herrera Roldán',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edwin Sneider Velandia Suárez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -214,22 +215,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
