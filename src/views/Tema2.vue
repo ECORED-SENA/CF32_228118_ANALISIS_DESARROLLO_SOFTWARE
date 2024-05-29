@@ -21,8 +21,8 @@
 
     figure.mb-5(data-aos="zoom-in-out")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/uzf8RW-GvTw?si=RTJgnaYau1Wci9FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video. Publicación de aplicaciones tradicionales: introducción
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oncZoVRApo4?si=pVOcE4fsQxIuUjDd" title="Servicios de dominio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video. Servicios de dominio
 
     .row.mb-5 
       .col-lg-6(data-aos="fade-right")
