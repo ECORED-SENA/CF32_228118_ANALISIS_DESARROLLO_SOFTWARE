@@ -76,7 +76,7 @@
             .col-lg-6.ps-lg-5
               .d-flex.flex-column.h-100.justify-content-between
                 h4.mb-4 VPS (Servidor Privado Virtual)
-                p Un servidor físico es particionado virtualmente; estas particiones virtuales tienen asignación independiente de parte de los recursos del servidor y solo comparten, entre sí, el sistema operativo. Cada partición es alquilada a diferentes clientes. Este modelo combina características del #[em hosting] compartido y del servidor dedicado. Los clientes comparten un mismo servidor pero las particiones virtuales tienen recursos independizados, por lo cual no deben compartir memoria, disco duro o procesador. El desempeño y velocidad de acceso de cada cliente es comparable al de un servidor dedicado.
+                p Un servidor físico es particionado virtualmente; estas particiones virtuales tienen asignación independiente de parte de los recursos del servidor y solo comparten, entre sí, el sistema operativo. Cada partición es alquilada a diferentes clientes. Este modelo combina características del #[em hosting] compartido y del servidor dedicado. Los clientes comparten un mismo servidor, pero las particiones virtuales tienen recursos independizados, por lo cual no deben compartir memoria, disco duro o procesador. El desempeño y velocidad de acceso de cada cliente es comparable al de un servidor dedicado.
             .col-lg-6
               figure.mb-4.mb-lg-0.my-auto
                 img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 491px;")
