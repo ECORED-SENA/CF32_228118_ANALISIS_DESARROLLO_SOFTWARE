@@ -31,7 +31,7 @@
             .col-lg-6.ps-lg-5
               .d-flex.flex-column.h-100
                 h4.mb-5 Alistamiento
-                p Tener listo el sitio web. Se recomienda utilizar servidores de aplicaciones en la máquina local para hacer pruebas. Hay gran variedad de servidores web que se amoldan fácilmente a los sistemas operativos y a los lenguajes de programación utilizados.
+                p Tener listo el sitio web. Se recomienda utilizar servidores de aplicaciones en la máquina local para hacer pruebas. Hay una gran variedad de servidores web que se amoldan fácilmente a los sistemas operativos y a los lenguajes de programación utilizados.
             .col-lg-6
               figure.mb-4.mb-lg-0.my-auto
                 img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 491px;")

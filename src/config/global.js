@@ -144,12 +144,12 @@ export default {
   referencias: [
     {
       referencia:
-        'De Souza, I. (12 de febrero de 2021). Aprende sobre los tipos de hosting más importantes de la actualidad y sus funciones. <em>Rock Content - ES</em>.',
+        'De Souza, I. (12 de febrero de 2021). Aprende sobre los tipos de <i>hosting</i> más importantes de la actualidad y sus funciones. <em>Rock Content - ES</em>.',
       link: 'https://rockcontent.com/es/blog/tipos-de-hosting/',
     },
     {
       referencia:
-        '<em>Luisescoffie</em> (3 de agosto de 2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web. <em>Luisescoffie</em>.',
+        'Luisescoffie (3 de agosto de 2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web. Luisescoffie.',
       link:
         'https://luisescoffie.com/4-herramientas-gratuitas-para-conocer-el-uptime-de-tu-sitio-web/',
     },
@@ -211,7 +211,7 @@ export default {
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Producción Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -222,6 +222,11 @@ export default {
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
