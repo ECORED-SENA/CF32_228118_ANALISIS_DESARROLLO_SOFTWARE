@@ -39,7 +39,7 @@
             .col-lg-6.ps-lg-5
               .d-flex.flex-column.h-100
                 h4.mb-5 #[em Hosting] apropiado
-                p Adquirir servicio de #[em hosting] que cumpla con características necesarias para el despliegue del sitio. Los servicios de #[em hosting] ofrecen un conjunto de beneficios entre los que se debe verificar el sistema operativo, el servidor de aplicaciones, sistemas gestores de bases de datos, lenguajes soportados, espacio de disco, límite de ancho de banda, cantidad de cuentas de correo, calidad de soporte, certificados digitales y copias de seguridad.
+                p Adquirir servicio de #[em hosting] que cumpla con las características necesarias para el despliegue del sitio. Los servicios de #[em hosting] ofrecen un conjunto de beneficios entre los que se debe verificar el sistema operativo, el servidor de aplicaciones, sistemas gestores de bases de datos, lenguajes soportados, espacio de disco, límite de ancho de banda, cantidad de cuentas de correo, calidad de soporte, certificados digitales y copias de seguridad.
             .col-lg-6
               figure.mb-4.mb-lg-0.my-auto
                 img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 491px;")
