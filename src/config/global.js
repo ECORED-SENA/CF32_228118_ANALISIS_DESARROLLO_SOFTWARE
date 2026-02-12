@@ -108,10 +108,10 @@ export default {
     {
       tema: 'Servicios de dominio',
       referencia:
-        'Corporación para la Asignación de Nombres y Números en Internet [ICANN]. (2015). Las funciones de la IANA.',
-      tipo: 'Reporte',
+        'Corporación para la Asignación de Nombres y Números en Internet [ICANN]. (2015). Funciones de la IANA: aspectos básicos.',
+      tipo: 'PDF',
       link:
-        'https://www.icann.org/es/system/files/files/iana-functions-18dec15-es.pdf',
+        'https://www.icann.org/en/system/files/files/functions-basics-08apr14-es.pdf',
     },
   ],
   glosario: [
